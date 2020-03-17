@@ -1,0 +1,574 @@
+[
+    {
+        "url": "/",
+        "name": "Türkiye"
+    },
+    {
+        "url": "/abd/",
+        "name": "ABD"
+    },
+    {
+        "url": "/afganistan/",
+        "name": "Afganistan"
+    },
+    {
+        "url": "/almanya/",
+        "name": "Almanya"
+    },
+    {
+        "url": "/andorra/",
+        "name": "Andorra"
+    },
+    {
+        "url": "/angola/",
+        "name": "Angola"
+    },
+    {
+        "url": "/arjantin/",
+        "name": "Arjantin"
+    },
+    {
+        "url": "/arnavutluk/",
+        "name": "Arnavutluk"
+    },
+    {
+        "url": "/avustralya/",
+        "name": "Avustralya"
+    },
+    {
+        "url": "/avusturya/",
+        "name": "Avusturya"
+    },
+    {
+        "url": "/azerbaycan/",
+        "name": "Azerbaycan"
+    },
+    {
+        "url": "/bahamalar/",
+        "name": "Bahamalar"
+    },
+    {
+        "url": "/bahreyn/",
+        "name": "Bahreyn"
+    },
+    {
+        "url": "/banglades/",
+        "name": "Bangladeş"
+    },
+    {
+        "url": "/barbados/",
+        "name": "Barbados"
+    },
+    {
+        "url": "/belcika/",
+        "name": "Belçika"
+    },
+    {
+        "url": "/belize/",
+        "name": "Belize"
+    },
+    {
+        "url": "/beyaz-rusya/",
+        "name": "Beyaz Rusya"
+    },
+    {
+        "url": "/bhutan/",
+        "name": "Bhutan"
+    },
+    {
+        "url": "/birlesik-arap-emirlikleri/",
+        "name": "Birleşik Arap Em..."
+    },
+    {
+        "url": "/bolivya/",
+        "name": "Bolivya"
+    },
+    {
+        "url": "/bosna-hersek/",
+        "name": "Bosna Hersek"
+    },
+    {
+        "url": "/botsvana/",
+        "name": "Botsvana"
+    },
+    {
+        "url": "/brezilya/",
+        "name": "Brezilya"
+    },
+    {
+        "url": "/brunei/",
+        "name": "Brunei"
+    },
+    {
+        "url": "/bulgaristan/",
+        "name": "Bulgaristan"
+    },
+    {
+        "url": "/burkina-faso/",
+        "name": "Burkina Faso"
+    },
+    {
+        "url": "/cape-verde/",
+        "name": "Cape Verde"
+    },
+    {
+        "url": "/cayman-adalari/",
+        "name": "Cayman Adaları"
+    },
+    {
+        "url": "/cezayir/",
+        "name": "Cezayir"
+    },
+    {
+        "url": "/cibuti/",
+        "name": "Cibuti"
+    },
+    {
+        "url": "/cad/",
+        "name": "Çad"
+    },
+    {
+        "url": "/cek-cumhuriyeti/",
+        "name": "Çek Cumhuriyeti"
+    },
+    {
+        "url": "/cin-halk-cumhuriyeti/",
+        "name": "Çin"
+    },
+    {
+        "url": "/danimarka/",
+        "name": "Danimarka"
+    },
+    {
+        "url": "/dogu-timor/",
+        "name": "Doğu Timor"
+    },
+    {
+        "url": "/dominik-cumhuriyeti/",
+        "name": "Dominik Cumhuriyeti"
+    },
+    {
+        "url": "/ekvador/",
+        "name": "Ekvador"
+    },
+    {
+        "url": "/el-salvador/",
+        "name": "El Salvador"
+    },
+    {
+        "url": "/endonezya/",
+        "name": "Endonezya"
+    },
+    {
+        "url": "/eritre/",
+        "name": "Eritre"
+    },
+    {
+        "url": "/ermenistan/",
+        "name": "Ermenistan"
+    },
+    {
+        "url": "/estonya/",
+        "name": "Estonya"
+    },
+    {
+        "url": "/etiyopya/",
+        "name": "Etiyopya"
+    },
+    {
+        "url": "/fas/",
+        "name": "Fas"
+    },
+    {
+        "url": "/fildisi-sahili/",
+        "name": "Fildişi Sahili"
+    },
+    {
+        "url": "/filipinler/",
+        "name": "Filipinler"
+    },
+    {
+        "url": "/finlandiya/",
+        "name": "Finlandiya"
+    },
+    {
+        "url": "/fransa/",
+        "name": "Fransa"
+    },
+    {
+        "url": "/gine/",
+        "name": "Gine"
+    },
+    {
+        "url": "/guam/",
+        "name": "Guam"
+    },
+    {
+        "url": "/guatemala/",
+        "name": "Guatemala"
+    },
+    {
+        "url": "/guney-kore/",
+        "name": "Güney Kore"
+    },
+    {
+        "url": "/guney-sudan/",
+        "name": "Güney Sudan"
+    },
+    {
+        "url": "/hirvatistan/",
+        "name": "Hırvatistan"
+    },
+    {
+        "url": "/hindistan/",
+        "name": "Hindistan"
+    },
+    {
+        "url": "/hollanda/",
+        "name": "Hollanda"
+    },
+    {
+        "url": "/honduras/",
+        "name": "Honduras"
+    },
+    {
+        "url": "/irak/",
+        "name": "Irak"
+    },
+    {
+        "url": "/ingiltere/",
+        "name": "İngiltere"
+    },
+    {
+        "url": "/iran/",
+        "name": "İran"
+    },
+    {
+        "url": "/irlanda/",
+        "name": "İrlanda"
+    },
+    {
+        "url": "/ispanya/",
+        "name": "İspanya"
+    },
+    {
+        "url": "/israil/",
+        "name": "İsrail"
+    },
+    {
+        "url": "/isvec/",
+        "name": "İsveç"
+    },
+    {
+        "url": "/isvicre/",
+        "name": "İsviçre"
+    },
+    {
+        "url": "/italya/",
+        "name": "İtalya"
+    },
+    {
+        "url": "/izlanda/",
+        "name": "İzlanda"
+    },
+    {
+        "url": "/japonya/",
+        "name": "Japonya"
+    },
+    {
+        "url": "/kambocya/",
+        "name": "Kamboçya"
+    },
+    {
+        "url": "/kanada/",
+        "name": "Kanada"
+    },
+    {
+        "url": "/karadag/",
+        "name": "Karadağ"
+    },
+    {
+        "url": "/katar/",
+        "name": "Katar"
+    },
+    {
+        "url": "/kazakistan/",
+        "name": "Kazakistan"
+    },
+    {
+        "url": "/kibris/",
+        "name": "Kıbrıs"
+    },
+    {
+        "url": "/kibrisrum/",
+        "name": "Kıbrıs Rum Kesimi"
+    },
+    {
+        "url": "/kirgizistan/",
+        "name": "Kırgızistan"
+    },
+    {
+        "url": "/kolombiya/",
+        "name": "Kolombiya"
+    },
+    {
+        "url": "/kosta-riko/",
+        "name": "Kosta Riko"
+    },
+    {
+        "url": "/kuveyt/",
+        "name": "Kuveyt"
+    },
+    {
+        "url": "/kuba/",
+        "name": "Küba"
+    },
+    {
+        "url": "/laos/",
+        "name": "Laos"
+    },
+    {
+        "url": "/lesotho/",
+        "name": "Lesotho"
+    },
+    {
+        "url": "/letonya/",
+        "name": "Letonya"
+    },
+    {
+        "url": "/libya/",
+        "name": "Libya"
+    },
+    {
+        "url": "/lihtenstayn/",
+        "name": "Lihtenştayn"
+    },
+    {
+        "url": "/litvanya/",
+        "name": "Litvanya"
+    },
+    {
+        "url": "/lubnan/",
+        "name": "Lübnan"
+    },
+    {
+        "url": "/luksemburg/",
+        "name": "Lüksemburg"
+    },
+    {
+        "url": "/macaristan/",
+        "name": "Macaristan"
+    },
+    {
+        "url": "/madagaskar/",
+        "name": "Madagaskar"
+    },
+    {
+        "url": "/makedonya/",
+        "name": "Makedonya"
+    },
+    {
+        "url": "/malezya/",
+        "name": "Malezya"
+    },
+    {
+        "url": "/mali/",
+        "name": "Mali"
+    },
+    {
+        "url": "/malta/",
+        "name": "Malta"
+    },
+    {
+        "url": "/mauritius/",
+        "name": "Mauritius"
+    },
+    {
+        "url": "/mayotte/",
+        "name": "Mayotte"
+    },
+    {
+        "url": "/meksika/",
+        "name": "Meksika"
+    },
+    {
+        "url": "/misir/",
+        "name": "Mısır"
+    },
+    {
+        "url": "/mogolistan/",
+        "name": "Moğolistan"
+    },
+    {
+        "url": "/moldova/",
+        "name": "Moldova"
+    },
+    {
+        "url": "/monako/",
+        "name": "Monako"
+    },
+    {
+        "url": "/mozambik/",
+        "name": "Mozambik"
+    },
+    {
+        "url": "/myanmar/",
+        "name": "Myanmar"
+    },
+    {
+        "url": "/nijer/",
+        "name": "Nijer"
+    },
+    {
+        "url": "/nijerya/",
+        "name": "Nijerya"
+    },
+    {
+        "url": "/nikaragua/",
+        "name": "Nikaragua"
+    },
+    {
+        "url": "/norvec/",
+        "name": "Norveç"
+    },
+    {
+        "url": "/ozbekistan/",
+        "name": "Özbekistan"
+    },
+    {
+        "url": "/pakistan/",
+        "name": "Pakistan"
+    },
+    {
+        "url": "/panama/",
+        "name": "Panama"
+    },
+    {
+        "url": "/paraguay/",
+        "name": "Paraguay"
+    },
+    {
+        "url": "/peru/",
+        "name": "Peru"
+    },
+    {
+        "url": "/polonya/",
+        "name": "Polonya"
+    },
+    {
+        "url": "/portekiz/",
+        "name": "Portekiz"
+    },
+    {
+        "url": "/porto-riko/",
+        "name": "Porto Riko"
+    },
+    {
+        "url": "/romanya/",
+        "name": "Romanya"
+    },
+    {
+        "url": "/rusya/",
+        "name": "Rusya"
+    },
+    {
+        "url": "/saint-lucia/",
+        "name": "Saint Lucia"
+    },
+    {
+        "url": "/samoa/",
+        "name": "Samoa"
+    },
+    {
+        "url": "/san-marino/",
+        "name": "San Marino"
+    },
+    {
+        "url": "/senegal/",
+        "name": "Senegal"
+    },
+    {
+        "url": "/seyseller/",
+        "name": "Seyşeller"
+    },
+    {
+        "url": "/slovakya/",
+        "name": "Slovakya"
+    },
+    {
+        "url": "/slovenya/",
+        "name": "Slovenya"
+    },
+    {
+        "url": "/sudan/",
+        "name": "Sudan"
+    },
+    {
+        "url": "/suriye/",
+        "name": "Suriye"
+    },
+    {
+        "url": "/suudi-arabistan/",
+        "name": "Suudi Arabistan"
+    },
+    {
+        "url": "/tacikistan/",
+        "name": "Tacikistan"
+    },
+    {
+        "url": "/tanzanya/",
+        "name": "Tanzanya"
+    },
+    {
+        "url": "/tayland/",
+        "name": "Tayland"
+    },
+    {
+        "url": "/tayvan/",
+        "name": "Tayvan"
+    },
+    {
+        "url": "/tunus/",
+        "name": "Tunus"
+    },
+    {
+        "url": "/turkmenistan/",
+        "name": "Türkmenistan"
+    },
+    {
+        "url": "/uganda/",
+        "name": "Uganda"
+    },
+    {
+        "url": "/ukrayna/",
+        "name": "Ukrayna"
+    },
+    {
+        "url": "/umman/",
+        "name": "Umman"
+    },
+    {
+        "url": "/uruguay/",
+        "name": "Uruguay"
+    },
+    {
+        "url": "/urdun/",
+        "name": "Ürdün"
+    },
+    {
+        "url": "/vietnam/",
+        "name": "Vietnam"
+    },
+    {
+        "url": "/yemen/",
+        "name": "Yemen"
+    },
+    {
+        "url": "/yunanistan/",
+        "name": "Yunanistan"
+    },
+    {
+        "url": "/zimbabve/",
+        "name": "Zimbabve"
+    }
+]

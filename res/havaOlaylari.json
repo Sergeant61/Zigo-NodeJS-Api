@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Az Bulutlu",
+        "png": "hava_image_1"
+    },
+    {
+        "name": "Bol güneş ışığı",
+        "png": "hava_image_2"
+    },
+    {
+        "name": "Bulutlu",
+        "png": "hava_image_3"
+    },
+    {
+        "name": "Bulutlu ve güneşli",
+        "png": "hava_image_4"
+    },
+    {
+        "name": "Çoğunlukla Bulutlu",
+        "png": "hava_image_5"
+    },
+    {
+        "name": "Çoğunlukla Bulutlu Sağanak Yağışlı",
+        "png": "hava_image_6"
+    },
+    {
+        "name": "Çok Bulutlu",
+        "png": "hava_image_7"
+    },
+    {
+        "name": "Daha sıcak",
+        "png": "hava_image_8"
+    },
+    {
+        "name": "Daha soğuk",
+        "png": "hava_image_9"
+    },
+    {
+        "name": "Güneşli",
+        "png": "hava_image_10"
+    },
+    {
+        "name": "Hafif kar veya kar sağanağı ihtimali",
+        "png": "hava_image_11"
+    },
+    {
+        "name": "Kar yağışı ihtimali",
+        "png": "hava_image_12"
+    },
+    {
+        "name": "Kar Yağışlı",
+        "png": "hava_image_13"
+    },
+    {
+        "name": "Karla Karışık",
+        "png": "hava_image_14"
+    },
+    {
+        "name": "Karla Karışık Yağmur",
+        "png": "hava_image_15"
+    },
+    {
+        "name": "Parçalı Bulutlu",
+        "png": "hava_image_16"
+    },
+    {
+        "name": "Pek soğuk değil",
+        "png": "hava_image_17"
+    },
+    {
+        "name": "Sağanak Yağış",
+        "png": "hava_image_18"
+    },
+    {
+        "name": "Yağmurlu",
+        "png": "hava_image_19"
+    },
+    {
+        "name": "Hafif Sağanak Yağışlı",
+        "png": "hava_image_20"
+    },
+    {
+        "name": "Gök Gürültülü Sağnak Yağmur",
+        "png": "hava_image_21"
+    },
+    {
+        "name": "Rüzgarlı",
+        "png": "hava_image_22"
+    },
+    {
+        "name": "Çoğunlukla Bulutlu Kar Yağışlı",
+        "png": "hava_image_23"
+    },
+    {
+        "name": "Parçalı Güneşli Sağanak Yağış",
+        "png": "hava_image_24"
+    },
+    {
+        "name": "Parçalı Güneşli Kar Fırtınası",
+        "png": "hava_image_25"
+    }
+]
