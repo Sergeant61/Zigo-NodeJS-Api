@@ -25,6 +25,7 @@ module.exports = (req, res, next) => {
     apiResponse.message = "No token provided.";
     apiResponse.success = false;
     apiResponse.statusCode = 0;
+
     res.json(apiResponse);
   }
 };

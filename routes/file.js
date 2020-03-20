@@ -86,7 +86,6 @@ router.post("/", upload.single("file"), (req, res, next) => {
 router.get("/:file_id", (req, res, next) => {
   const { username } = req.decoded;
   const file_id = req.params.file_id;
-
   User.findOne({ username }, (err, data) => {
     if (err) throw err;
 

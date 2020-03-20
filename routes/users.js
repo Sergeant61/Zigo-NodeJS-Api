@@ -122,7 +122,7 @@ router.get("/forgotPass", (req, res, next) => {
         username
       };
       const token = jwt.sign(payload, req.app.get("api_mail_key"), {
-        expiresIn: 5 //12 saat
+        expiresIn: 5 //5 dk
       });
 
       const mailOptions = {

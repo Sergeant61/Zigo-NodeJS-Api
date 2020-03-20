@@ -42,7 +42,7 @@ router.post("/login", (req, res) => {
               username
             };
             const token = jwt.sign(payload, req.app.get("api_secret_key"), {
-              expiresIn: 7200 //12 saat
+              expiresIn: "12h" //12 saat
             });
 
             let apiResponse = new ApiResponse("Login success.", true, 12, {
@@ -103,18 +103,23 @@ router.post("/updatePass", (req, res, next) => {
       res.json(apiResponse);
     } else {
       if (password === password2) {
-        bcrypt.hash(password, 10).then(hash => {
-          const promise = User.findByIdAndUpdate(data._id, { password: hash });
-          promise
-            .then(data => {
-              res.render("congratulations");
-            })
-            .catch(err => {
-              res.render("error");
+        bcrypt
+          .hash(password, 10)
+          .then(hash => {
+            const promise = User.findByIdAndUpdate(data._id, {
+              password: hash
             });
-        }).catch(err=>{
-          console.log(err)
-        });
+            promise
+              .then(data => {
+                res.render("congratulations");
+              })
+              .catch(err => {
+                res.render("error");
+              });
+          })
+          .catch(err => {
+            console.log(err);
+          });
       } else {
         res.render("error");
       }
