@@ -62,10 +62,12 @@ router.put("/", (req, res, next) => {
             17,
             data
           );
+          console.log(apiResponse)
           res.json(apiResponse);
         })
         .catch(err => {
           let apiResponse = new ApiResponse("User update fail.", false, 18);
+          console.log(apiResponse,err)
           res.json(apiResponse);
         });
     }

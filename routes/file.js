@@ -37,6 +37,7 @@ router.post("/", upload.single("file"), (req, res, next) => {
       promise
         .then(date => {
           let apiResponse = new ApiResponse("File save.", true, 25, newFile);
+          console.log(apiResponse);
           res.json(apiResponse);
         })
         .catch(err => {
@@ -147,9 +148,9 @@ router.get("/:file_id", (req, res, next) => {
           }
         ],
         (err, getFileList) => {
-          const getFile =  getFileList[0]
-          const hasFileUser = new User(getFile.user[0]) ;
-          console.log(getFile, hasFileUser);  
+          const getFile = getFileList[0];
+          const hasFileUser = new User(getFile.user[0]);
+          //console.log(getFile, hasFileUser);
 
           if (hasFileUser.profilAccess) {
             // Kullanıcı açık hesap ise
@@ -194,7 +195,7 @@ router.get("/:file_id", (req, res, next) => {
   });
 });
 
-const accessNotFound = (res) => {
+const accessNotFound = res => {
   let apiResponse = new ApiResponse("Access not found.", false, 27, null);
   res.json(apiResponse);
 };

@@ -35,6 +35,9 @@ const UserSchema = new Schema({
   sex: {
     type: Boolean
   },
+  ppImageId: {
+    type: Schema.Types.ObjectId
+  },
   profilAccess: {
     type: Boolean,
     default: true
