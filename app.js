@@ -5,7 +5,7 @@ const os = require("os");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
-
+const cors = require("cors");
 
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
@@ -33,6 +33,7 @@ const verifyTokenMail = require("./middleware/verify-token-mail");
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "jade");
 
+app.use(cors());
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -43,20 +44,19 @@ const options = {
   uploadDir: os.tmpdir(),
   autoClean: true
 };
- 
+
 //-------------------------------------------------
 
-// // parse data with connect-multiparty. 
+// // parse data with connect-multiparty.
 // app.use(formData.parse(options));
 // // delete from the request all empty files (size == 0)
 // app.use(formData.format());
-// // change the file objects to fs.ReadStream 
+// // change the file objects to fs.ReadStream
 // app.use(formData.stream());
 // // union the body and the files
 // app.use(formData.union());
 
 //-------------------------------------------------
-
 
 app.use("/resetPass", verifyTokenMail);
 app.use("/updatePass", verifyTokenMail);

@@ -37,7 +37,6 @@ router.post("/", upload.single("file"), (req, res, next) => {
       promise
         .then(date => {
           let apiResponse = new ApiResponse("File save.", true, 25, newFile);
-          console.log(apiResponse);
           res.json(apiResponse);
         })
         .catch(err => {

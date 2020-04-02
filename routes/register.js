@@ -10,7 +10,6 @@ const errorParser = require("../error-helper/errorParser");
 //Models
 const ApiResponse = require("../models/ApiResponse");
 const User = require("../models/User");
-const e = require("express");
 
 router.post("/login", (req, res) => {
   const { username, password } = req.body;
@@ -125,6 +124,24 @@ router.post("/updatePass", (req, res, next) => {
       }
     }
   });
+});
+
+
+//Angular deneme için yazılmış routerlar
+
+router.get("/users", (req, res, next) => {
+  const promise = User.find({})
+   
+  promise
+    .then(data => {
+      res.status(200);
+      res.json(data);
+    })
+    .catch(err => {      res.status(200);
+
+      res.json(err);
+    });
+  
 });
 
 module.exports = router;
